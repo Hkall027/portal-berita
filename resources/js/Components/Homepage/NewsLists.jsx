@@ -16,7 +16,6 @@ const isNews = (news) => {
                     <p>{data.description}</p>
                     <div className="card-actions justify-end">
                         <div className="badge badge-inline">{data.category}</div>
-                        <div className="badge badge-outline">{data.author}</div>
                     </div>
                 </div>
             </div>
